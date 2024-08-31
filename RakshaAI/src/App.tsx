@@ -1,5 +1,5 @@
-import Navbar from './assets/Navbar.tsx'
-import SideBar from './assets/SideBar.tsx'
+import Navbar from './components/Navbarr.tsx'
+import SideBar from './components/SideBar.tsx'
 
 function App() {
   

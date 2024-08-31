@@ -1,14 +1,21 @@
 'use client'
+import { Link } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbarr = () => {
     return(
         <div className="w-full h-[60px] flex flex-row justify-around bg-black ">
             
             <div className='text-white flex flex-row font-semibold ml-[-200px]'>
-                <img src={'/logo-white.png'} alt="RakshAI" width='150px' className='ml-10 pt-1 ' /> 
-                <div className='mr-10 ml-24 pt-4'>Home</div>
-                <div className='mr-10 pt-4'>About</div>
-                <div className='pt-4'>Contact</div>
+                <img src={'/logo-white.png'} alt="RakshAI" width='150px' className='ml-10 pt-1 ' />
+                <ul>
+                    <li className='mr-10 ml-24 pt-4'><Link to='/Home'>Home</Link></li>
+                </ul> 
+                <ul>
+                    <li className='mr-10 pt-4'><Link to='/About'>About</Link></li>
+                </ul>
+                <ul>
+                    <li className='pt-4'><Link to='/Contact'>Contact</Link></li>
+                </ul>
             </div>           
             
             <div className='relative right-[-150px] cursor-pointer flex flex-row gap-4 p-2'>
@@ -25,4 +32,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbarr
