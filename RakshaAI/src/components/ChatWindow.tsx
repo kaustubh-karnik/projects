@@ -20,7 +20,6 @@ const systemMessage = {
   content: "You are a assistant called as RakshaAI."
 };
 
-const API_KEY = "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"; 
 
 const ChatWindow = () => {
   const [messages, setMessages] = useState<MessageType[]>([
