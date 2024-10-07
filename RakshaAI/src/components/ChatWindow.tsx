@@ -20,7 +20,6 @@ const systemMessage = {
   content: "You are a assistant called as RakshaAI."
 };
 
-
 const ChatWindow = () => {
   const [messages, setMessages] = useState<MessageType[]>([
     {
