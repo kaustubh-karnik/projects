@@ -5,7 +5,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Chat from './Pages/Chat.tsx';
+import Chat from './Pages/Chat.js';
 import Login from './Pages/Login.tsx';
 import Home from './Pages/Home.tsx';
 import Contact from './Pages/Contact.tsx';
